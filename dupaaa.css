@@ -1,0 +1,1065 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Nanum+Myeongjo&family=Overpass:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+ 
+
+/* BACKGROUND */
+
+ 
+
+body {
+
+ background: url('https://64.media.tumblr.com/5133aa62a0d2ad4f0eb8ebecc4ac3407/b02173568559c30c-fb/s640x960/a2d1b8595060fa68302f5b1b75bf129d6530e718.jpg') center center fixed;
+
+ background-size: 100%;
+
+ font-family: "Cormorant Infant", serif;
+
+ color: #ffffff;
+
+}
+
+ 
+
+ 
+
+/* FEED ALL, PLAY ALL */
+
+ 
+
+.feature {
+
+ background: rgb(45 1 0 / 50%) !important;
+
+ color: #ffffff !important;
+
+ border: none !important;
+
+ border-radius: 5px !important;
+
+}
+
+ 
+
+ 
+
+/* TOPBAR ("Welcome back, ___"), NAVBAR (Den/Crossroads/Etc.) */
+
+ 
+
+.topbar {
+
+ background: rgb(45 1 0 / 50%);
+
+ border: none;
+
+ border-top: none;
+
+ color: #ffffff;
+
+ border-radius: 5px;
+
+font-family: "Cormorant Infant", serif;
+    
+}
+
+ 
+
+.navbar {
+
+ background: rgb(45 1 0 / 50%);
+
+ border-bottom: none;
+
+font-family: "Cormorant Infant", serif;
+    
+ color: #ffffff;
+
+ border-radius: 5px;
+
+}
+
+ 
+
+.navbar li a {
+
+ color: #ffffff !important;
+
+}
+
+ 
+
+/* NAVBAR HOVER COLOR */
+
+ 
+
+.navbar li a:hover {
+
+ background: rgb(45 1 0 / 50%) !important;
+
+}
+
+ 
+
+ 
+
+/* MAIN PANEL */
+
+ 
+
+/* RIGHT SIDE */
+
+.container.main {
+
+ background: rgb(45 1 0 / 50%);
+
+ border: none;
+
+ box-shadow: none;
+
+ border-radius: 5px;
+
+}
+
+ 
+
+/* LEFT SIDE */
+
+.col-md-9 {
+
+ background: none;
+
+}
+
+ 
+
+ 
+
+/* BREADCRUMB (Home / Den) */
+
+ 
+
+.breadcrumb {
+
+ background: rgb(45 1 0 / 50%);
+
+}
+
+ 
+
+.breadcrumb .active {
+
+ color: #ffffff;
+
+}
+
+ 
+
+ 
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+ 
+
+.alert {
+
+ background: rgb(45 1 0 / 50%);
+
+ border: none;
+
+ color: #ffffff;
+
+}
+
+ 
+
+.alert-warning,
+
+.alert-danger {
+
+ background: rgb(45 1 0 / 50%);
+
+ color: #ffffff;
+
+}
+
+ 
+
+ 
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+ 
+
+.feature,
+
+div.left {
+
+ background: rgb(45 1 0 / 50%);
+
+ border: none;
+
+}
+
+ 
+
+ 
+
+/* ENERGY BARS, ACHIEVEMENTS, & BOOKMARKS */
+
+ 
+
+.panel {
+
+ background: rgb(45 1 0 / 50%) !important;
+
+ box-shadow: none !important;
+
+ border: none !important;
+
+ color: #ffffff !important;
+
+}
+
+ 
+
+/* ENERGY BAR BACKGROUND */
+
+.progress {
+
+ background: rgb(45 1 0 / 50%);
+
+ color: #ffffff !important;
+
+}
+
+ 
+
+/* ENERGY BAR TEXT */
+
+.progress div {
+
+ color: #ffffff !important;
+
+}
+
+ 
+
+/* ENERGY BAR COLOR */
+
+.progress-bar {
+
+ background: rgb(45 1 0 / 50%);
+
+ color: #ffffff !important;
+
+}
+
+ 
+
+ 
+
+/* CHAT */
+
+ 
+
+.s-chat-message:nth-child(even) {
+
+ background: #3502006b !important;
+
+ border: none !important;
+
+}
+
+ 
+
+.s-chat-message:nth-child(odd) {
+
+ background: #3302001a !important;
+
+ border: none !important;
+
+}
+
+ 
+
+/* PINNED MESSAGE */
+
+.s-chat-message__pinned {
+
+ background: #3502006b !important;
+
+ color: #ffffff !important;
+
+ border: none !important;
+
+}
+
+ 
+
+.s-chat-message_timestamp {
+
+ color: #ffffff !important;
+
+}
+
+ 
+
+div#chatMessageContainer {
+
+ border: none !important;
+
+}
+
+ 
+
+/* CURRENT CHANNEL TAB (MAIN, SALES, ETC.) */
+
+button#label_currentChannel {
+
+ border: none !important;
+
+ background: #3302001a !important;
+
+}
+
+ 
+
+ 
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+ 
+
+h1 {
+
+ color: #ffffff;
+
+ font-size: 72px;
+
+ text-align: center;
+
+}
+
+ 
+
+ 
+
+/* MEDIUM HEADER */
+
+ 
+
+h2 {
+
+ color: #ffffff;
+
+ font-size: 24px;
+
+ text-align: center;
+
+}
+
+ 
+
+ 
+
+/* SMALL HEADER */
+
+ 
+
+h3 {
+
+ color: #ffffff !important;
+
+ font-size: 14px !important
+
+}
+
+ 
+
+ 
+
+/* LION INFO TABLE (Level, Stats, Branch, Territory Count, Etc.) */
+
+ 
+
+ 
+
+/* PANEL BACKGROUND COLOR */
+
+.table {
+
+ background: rgb(45 1 0 / 50%);
+
+ border: none !important;
+
+ border-collapse: separate;
+
+ border-radius: 5px;
+
+}
+
+ 
+
+ 
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+.top,
+
+.bottom,
+
+th {
+
+ background: rgb(45 1 0 / 50%) !important;
+
+ color: #ffffff !important;
+
+ border-radius: 5px;
+
+}
+
+ 
+
+ 
+
+/* Block of color where "Territory Description, Player Name, Avatar URL" etc. are */
+
+ 
+
+.table .left {
+
+ background: rgb(45 1 0 / 50%);
+
+}
+
+ 
+
+/* Affects the color behind your territory description, player name, etc. */
+
+ 
+
+input,
+
+select,
+
+textarea {
+
+ background: rgb(96 3 0 / 50%) !important;
+
+ border: none !important;
+
+ border-color: black;
+
+ border-radius: 5px;
+
+ box-shadow: none !important;
+
+ color: black !important;
+
+ text-shadow: none !important;
+
+}
+
+ 
+
+ 
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+ 
+
+.inner-table .left {
+
+ background: rgb(45 1 0 / 50%) !important;
+
+}
+
+
+
+ 
+
+ 
+
+/* Color behind the number of all of the things above */
+
+ 
+
+.inner-table .right {
+
+ background: rgb(45 1 0 / 50%)
+
+}
+
+ 
+
+/* IGNORE */
+
+.right_odd {
+
+ background: none !important;
+
+}
+
+ 
+
+ 
+
+/* ACCOUNT OPTIONS PANELS (Friend Requests Toggles, etc.) */
+
+ 
+
+.item-header {
+
+ background: rgb(45 1 0 / 50%) !important;
+
+ color: #ffffff !important;
+
+}
+
+ 
+
+.item {
+
+ background: rgb(45 1 0 / 50%) !important;
+
+ border: none !important;
+
+}
+
+ 
+
+ 
+
+/* BEETLE MOUND TOPBAR (Where it says Beetle Training Grounds, Beetle Battling, etc.) */
+
+ 
+
+.sub_menu {
+
+ background: rgb(45 1 0 / 50%) !important;
+
+}
+
+ 
+
+.sub_menu_item_selected {
+
+ background: rgb(45 1 0 / 50%) !important;
+
+}
+
+ 
+
+ 
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", etc. and cave/mound names */
+
+ 
+
+.cave-grid,
+
+.mound-grid {
+
+ background: rgb(45 1 0 / 50%);
+
+ border: none !important;
+
+}
+
+ 
+
+ 
+
+/* LINKS & LINK HOVER COLOR */
+
+ 
+
+a:link,
+
+a:visited {
+
+ color: #ffffff !important;
+
+}
+
+ 
+
+a:hover {
+
+ color: #ffffff !important;
+
+}
+
+ 
+
+ 
+
+
+/* SCROLL BAR */
+
+ 
+
+::-webkit-scrollbar {
+
+ width: 7px;
+
+ height: 7px;
+
+}
+
+ 
+
+ 
+
+/* SCROLL BAR BACKGROUND */
+
+ 
+
+::-webkit-scrollbar-track {
+
+ background: #330200d6;
+
+}
+
+ 
+
+ 
+
+/* SCROLL BAR "THUMB" */
+
+ 
+
+::-webkit-scrollbar-thumb {
+
+ background: #3502006b;
+
+ border-radius: 4px;
+
+}
+
+ 
+
+ 
+
+/* LION AND USER AVATAR OPACITY */
+
+ 
+
+div#lion_image {
+
+ opacity: 0.8;
+
+}
+
+ 
+
+table#player img {
+
+ opacity: 0.8;
+
+}
+
+ 
+
+ 
+
+/* CIRCULAR LION AND USER AVATAR */
+
+ 
+
+div#lion_image {
+
+ border-radius: 100% !important;
+
+ overflow: hidden;
+
+ margin-top: 19px;
+
+ margin-left: 6px;
+
+}
+
+ 
+
+table#player img {
+
+ border-radius: 100% !important;
+
+ overflow: hidden;
+
+}
+
+ 
+
+ 
+
+/* LIODEN LOGO REPLACER */
+
+ 
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+
+ content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/db2c6d3c-4958-49ac-8348-241189aade30/dbozoji-250e1b0d-baa7-4fe1-873e-715404d6237f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiMmM2ZDNjLTQ5NTgtNDlhYy04MzQ4LTI0MTE4OWFhZGUzMFwvZGJvem9qaS0yNTBlMWIwZC1iYWE3LTRmZTEtODczZS03MTU0MDRkNjIzN2YucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9RM5A42FGkAP3RYze3R7TCj43e36WZbHorDEGvnBic0');
+
+}
+
+ 
+
+ 
+
+/* PREGNANT LIONESSES */
+
+ 
+
+div.cave-grid>img {
+
+ content: url('https://i.pinimg.com/originals/fb/b1/84/fbb184f0959539c0ce0f4db5fcb426d6.jpg')!important;
+
+}
+
+ 
+
+ 
+
+/* CAVES (Copy paste to add more) */
+
+ 
+
+a[href$="141925"]>div.cave-grid>img {
+
+ content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c1b2ddd0-6b66-4843-90c5-c59e2642303a/dgzz55u-0b77e5c4-9411-4070-bb16-42b246f2af3a.jpg/v1/fill/w_1079,h_740,q_70,strp/goewno8_by_yoku_bo_dgzz55u-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzQxIiwicGF0aCI6IlwvZlwvYzFiMmRkZDAtNmI2Ni00ODQzLTkwYzUtYzU5ZTI2NDIzMDNhXC9kZ3p6NTV1LTBiNzdlNWM0LTk0MTEtNDA3MC1iYjE2LTQyYjI0NmYyYWYzYS5qcGciLCJ3aWR0aCI6Ijw9MTA4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.3ux5Zto-Ih33Q3CnhcysfBljR2xhkV2V1ok_Vp27qG8')!important;
+
+}
+
+
+ 
+
+/* UNSORTED */
+
+ 
+
+a[href$="unsorted.php?id=200405"]>div.cave-grid>img {
+
+ content: url('https://i.pinimg.com/originals/fb/b1/84/fbb184f0959539c0ce0f4db5fcb426d6.jpg')!important;
+
+}
+
+ 
+
+ 
+
+/* PRIDE OVERVIEW */
+
+ 
+
+a[href$="lionoverview.php?id=200405"]>div.cave-grid>img {
+
+ content: url('https://i.pinimg.com/originals/fb/b1/84/fbb184f0959539c0ce0f4db5fcb426d6.jpg')!important;
+
+}
+
+ 
+
+ 
+
+/* MOUNDS */
+
+ 
+
+.mound-grid img {
+
+ background: url('https://i.imgur.com/j4OHg3e.jpg');
+
+ width: 0;
+
+ height: 0;
+
+ padding-top: 80px;
+
+ padding-right: 130px;
+
+}
+
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/holidays/hol-1/hol39.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+
+.capt {
+    padding:10px 12px;
+    border:1px solid #000;
+    line-height:13px;
+    border-radius:10px;
+    position: relative;
+    text-align: center;
+    min-width:100px;
+} .capt a {
+    color:white!important;
+    font-weight:bold!important;
+} .capt p {
+    margin:5px 0px;
+} .capt p:last-child {
+    margin-bottom: 0px;
+} .capt p:first-child {
+    margin-top:0px;
+} .capt::after {
+    content:"";
+    display:block;
+} .capt::before {
+    content:'CSS by #191357';
+    font: bold 9px Calibri;
+    color:black;
+} .capt::after, .capt::before {
+    position: absolute;
+}
+
+@media only screen and (min-width: 992px) {
+    
+    .float {
+        position:fixed!important;
+        z-index: 999;
+    } .note-editor .float {
+        display: none!important;
+    } 
+    
+    .float.bl, .float.tl {
+        left:10px;
+    } .float.br,.float.tr {
+        right:10px;
+    } .float.bl, .float.br {
+        bottom:10px;
+    } .float.tl, .float.tr {
+        top:10px;
+    }
+    
+    .float.bl.ani, .float.br.ani {
+        animation: floatb 5.5s infinite;
+    } .float.tl.ani, .float.tr.ani {
+        animation: floatt 5.5s infinite;
+    }
+    
+    @keyframes floatb {
+        0% {bottom:30px;}
+        50% {bottom:10px;}
+        100% {bottom:30px;}
+    } @keyframes floatt {
+        0% {top:10px;}
+        50% {top:30px;}
+        100% {top:10px;}
+    }
+    
+    .capt {
+        max-width:250px;
+        display: inline-block;
+        transition: 0.5s ease;
+        opacity:0;
+    } .float.br .capt, .float.tr .capt {
+        float:left;
+    } .float.bl .capt, .float.tl .capt {
+        float:right;
+    } 
+    
+    .float:hover .capt {
+        opacity:1;
+    } .float.br:hover .capt, .float.tr:hover .capt {
+        margin-right:10px;
+    } .float.bl:hover .capt, .float.tl:hover .capt {
+        margin-left:10px;
+    }
+    
+    .float.bl .capt::after, .float.tl .capt::after, .float.br .capt::after, .float.tr .capt::after {
+        bottom:-11px;
+        border-bottom:10px solid transparent;
+    }
+    
+    .float.bl .capt::after, .float.tl .capt::after {
+        border-left:10px solid #fff;
+        border-left-color:inherit!important;
+        left:10px;
+    } .float.br .capt::after, .float.tr .capt::after {
+        border-right:10px solid #fff;
+        border-right-color:inherit!important;
+        right:10px;
+    } .float.bl .capt::before, .float.tl .capt::before {
+        bottom:-12px;
+        right:0px;
+    } .float.br .capt::before, .float.tr .capt::before {
+        bottom:-12px;
+        left:0px;
+    }
+    
+} @media only screen and (max-width: 991px) {
+    
+    .float {
+        max-width:50%;
+        margin-left:25%;
+        margin-bottom:15px;
+        text-align: center;
+    } .capt {
+        display:block;
+        margin-top:10px;
+        margin-bottom:10px;
+    } .capt::after {
+        border-top: 10px solid transparent;
+        border-right: 10px solid #fff;
+        border-right-color: inherit!important;
+        top:-10px;
+    } .capt::before {
+        bottom: -13px;
+        right:0px;
+    }
+    
+}
+
+
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+
+/* MEMBER ONLINE */
+ 
+.member-online {
+    background: rgba(207,207,207,0);
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/050c3e0c-1f5d-4f41-9c4b-a28246506d9d/dda1ydu-4ac240ab-bb31-40dc-b625-b37a29888642.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA1MGMzZTBjLTFmNWQtNGY0MS05YzRiLWEyODI0NjUwNmQ5ZFwvZGRhMXlkdS00YWMyNDBhYi1iYjMxLTQwZGMtYjYyNS1iMzdhMjk4ODg2NDIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.mZw-ZhzJpNZz-XamBmu5V4SUvhXXBYFKGUyP-nBTY3A')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+ 
+/* MEMBER OFFLINE */
+ 
+.member-offline {
+    background: rgba(207,207,207,0);
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/050c3e0c-1f5d-4f41-9c4b-a28246506d9d/dda1ydu-4ac240ab-bb31-40dc-b625-b37a29888642.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA1MGMzZTBjLTFmNWQtNGY0MS05YzRiLWEyODI0NjUwNmQ5ZFwvZGRhMXlkdS00YWMyNDBhYi1iYjMxLTQwZGMtYjYyNS1iMzdhMjk4ODg2NDIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.mZw-ZhzJpNZz-XamBmu5V4SUvhXXBYFKGUyP-nBTY3A')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+/* JAN */
+img[src$="icon_dermestid.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+/* FEB */
+img[src$="HeartShell.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+/* MARCH */
+img[src$="icon_beetlerhino.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+/* APRIL */
+img[src$="easteregg.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+ 
+/* MAY */
+img[src$="icon_beetlemant.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+/* JUNE */
+img[src$="icon_khepri.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+/* JULY MS */
+img[src$="shards.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+/* JULY AC */
+img[src$="icon_axion.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+/* AUG CB */
+img[src$="icon_beetlecarrion.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+/* AUG DB */
+img[src$="icon_bone.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SEPT JB */
+img[src$="icon_beetlejewel.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SEPT ET */
+img[src$="icon_eldritch.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+/* OCT BB */
+img[src$="icon_beetleblood.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+/* OCT NF */
+img[src$="nephelinefeather.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+/* OCT DS */
+img[src$="demonicscale.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+/* NOV */
+img[src$="icon_scarabbeetle.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+ 
+/* DEC */
+img[src$="icon_stinkbug.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
+
+/* JAN */
+img[src$="icon_doubloon.png"] {
+    content:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00ed0757-9b56-4472-b9a5-f8517172f932/daibz5q-8be1fa0f-12fa-41ef-8d94-4595968f2e4b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwZWQwNzU3LTliNTYtNDQ3Mi1iOWE1LWY4NTE3MTcyZjkzMlwvZGFpYno1cS04YmUxZmEwZi0xMmZhLTQxZWYtOGQ5NC00NTk1OTY4ZjJlNGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I743NJA3rrOeg8xlYf-cOkQa1uA70BzN8Zv02ROTcuc')!important;
+    width:20px!important;
+ 
+}
