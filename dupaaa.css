@@ -649,7 +649,7 @@ a:hover {
 
 div#lion_image {
 
- opacity: 0.8;
+ opacity: 0.7;
 
 }
 
@@ -657,7 +657,7 @@ div#lion_image {
 
 table#player img {
 
- opacity: 0.8;
+ opacity: 0.7;
 
 }
 
@@ -701,13 +701,23 @@ table#player img {
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
- content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/db2c6d3c-4958-49ac-8348-241189aade30/dbozoji-250e1b0d-baa7-4fe1-873e-715404d6237f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiMmM2ZDNjLTQ5NTgtNDlhYy04MzQ4LTI0MTE4OWFhZGUzMFwvZGJvem9qaS0yNTBlMWIwZC1iYWE3LTRmZTEtODczZS03MTU0MDRkNjIzN2YucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9RM5A42FGkAP3RYze3R7TCj43e36WZbHorDEGvnBic0');
+ content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/28beee18-1a4c-4ac3-9ef8-9eeb87d796b1/dgt85d4-c6164cc9-adb9-4288-9b38-232efe2de909.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI4YmVlZTE4LTFhNGMtNGFjMy05ZWY4LTllZWI4N2Q3OTZiMVwvZGd0ODVkNC1jNjE2NGNjOS1hZGI5LTQyODgtOWIzOC0yMzJlZmUyZGU5MDkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.s086QyLHVRhGNuNqrf467dGZvkE_xKSl3spt6IxE0aM');
 
 }
 
  
 
+ /* CAVES (Copy paste to add more) */
+
  
+
+a[href$="141925"]>div.cave-grid>img {
+
+ content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c1b2ddd0-6b66-4843-90c5-c59e2642303a/dgzz55u-0b77e5c4-9411-4070-bb16-42b246f2af3a.jpg/v1/fill/w_1079,h_740,q_70,strp/goewno8_by_yoku_bo_dgzz55u-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzQxIiwicGF0aCI6IlwvZlwvYzFiMmRkZDAtNmI2Ni00ODQzLTkwYzUtYzU5ZTI2NDIzMDNhXC9kZ3p6NTV1LTBiNzdlNWM0LTk0MTEtNDA3MC1iYjE2LTQyYjI0NmYyYWYzYS5qcGciLCJ3aWR0aCI6Ijw9MTA4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.3ux5Zto-Ih33Q3CnhcysfBljR2xhkV2V1ok_Vp27qG8')!important;
+
+}
+
+
 
 /* PREGNANT LIONESSES */
 
@@ -719,22 +729,7 @@ div.cave-grid>img {
 
 }
 
- 
 
- 
-
-/* CAVES (Copy paste to add more) */
-
- 
-
-a[href$="141925"]>div.cave-grid>img {
-
- content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c1b2ddd0-6b66-4843-90c5-c59e2642303a/dgzz55u-0b77e5c4-9411-4070-bb16-42b246f2af3a.jpg/v1/fill/w_1079,h_740,q_70,strp/goewno8_by_yoku_bo_dgzz55u-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzQxIiwicGF0aCI6IlwvZlwvYzFiMmRkZDAtNmI2Ni00ODQzLTkwYzUtYzU5ZTI2NDIzMDNhXC9kZ3p6NTV1LTBiNzdlNWM0LTk0MTEtNDA3MC1iYjE2LTQyYjI0NmYyYWYzYS5qcGciLCJ3aWR0aCI6Ijw9MTA4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.3ux5Zto-Ih33Q3CnhcysfBljR2xhkV2V1ok_Vp27qG8')!important;
-
-}
-
-
- 
 
 /* UNSORTED */
 
@@ -770,7 +765,7 @@ a[href$="lionoverview.php?id=200405"]>div.cave-grid>img {
 
 .mound-grid img {
 
- background: url('https://i.imgur.com/j4OHg3e.jpg');
+ background: url('https://i.pinimg.com/originals/89/54/14/895414e1507ff880607713d9dd27a15b.jpg');
 
  width: 0;
 
